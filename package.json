@@ -1,0 +1,23 @@
+{
+  "name": "cypress-skip-this-test",
+  "version": "1.0.0",
+  "description": "Skips the current test if it depends on the previous failed test",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cypress",
+    "cypress-plugin"
+  ],
+  "author": "Gleb Bahmutov",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.14.1",
+    "cypress-expect": "^3.1.2",
+    "prettier": "^3.3.3"
+  }
+}
