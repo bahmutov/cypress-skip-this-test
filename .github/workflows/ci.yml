@@ -20,6 +20,7 @@ jobs:
       - name: Semantic Release 🚀
         # https://github.com/cycjimmy/semantic-release-action
         uses: cycjimmy/semantic-release-action@v4
+        if: github.ref == 'refs/heads/main'
         env:
           # github token is automatically created by the GH Action workflow
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
