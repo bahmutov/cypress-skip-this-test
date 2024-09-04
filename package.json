@@ -25,5 +25,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/bahmutov/cypress-skip-this-test.git"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
   }
 }
