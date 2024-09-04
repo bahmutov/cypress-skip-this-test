@@ -1,13 +1,14 @@
 {
   "name": "cypress-skip-this-test",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Skips the current test if it depends on the previous failed test",
   "main": "src/index.js",
   "files": [
     "src"
   ],
   "scripts": {
-    "test": "cypress-expect run --expect-exactly results.json"
+    "test": "cypress-expect run --expect-exactly results.json",
+    "semantic-release": "semantic-release"
   },
   "keywords": [
     "cypress",
@@ -18,6 +19,11 @@
   "devDependencies": {
     "cypress": "^13.14.1",
     "cypress-expect": "^3.1.2",
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "semantic-release": "^24.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bahmutov/cypress-skip-this-test.git"
   }
 }
