@@ -1,0 +1,20 @@
+{
+  "cypress": {
+    "e2e": {
+      "spec1.cy.js": {
+        "Parent suite": {
+          "test 1": "passing",
+          "test 2": "passing",
+          "test 3": "passing"
+        }
+      },
+      "spec2.cy.js": {
+        "Parent suite": {
+          "test 1": "passing",
+          "test 2": "failed",
+          "test 3": "pending"
+        }
+      }
+    }
+  }
+}

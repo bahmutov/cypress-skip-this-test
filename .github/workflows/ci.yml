@@ -11,6 +11,11 @@ jobs:
       - name: Cypress tests
         # https://github.com/cypress-io/github-action
         uses: cypress-io/github-action@v6
+        with:
+          runTests: false
+
+      - name: Tests
+        run: npm test
 
       - name: Semantic Release 🚀
         # https://github.com/cycjimmy/semantic-release-action

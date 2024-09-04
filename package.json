@@ -7,7 +7,7 @@
     "src"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress-expect run --expect-exactly results.json"
   },
   "keywords": [
     "cypress",
