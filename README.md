@@ -2,6 +2,8 @@
 
 > Skips the current test if it depends on the previous failed test
 
+📝 Read the blog post [Skip Dependent Cypress Tests On Failure](https://glebbahmutov.com/blog/skip-dependent-tests-on-failure/).
+
 ## Install
 
 ```
